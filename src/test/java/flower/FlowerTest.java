@@ -16,7 +16,7 @@ public class FlowerTest {
     public void testSetColor() {
         FlowerColor color = FlowerColor.RED;
         flower.setColor(color);
-        Assertions.assertEquals(color, flower.getColor());
+        Assertions.assertEquals("#FF0000", flower.getColor());
     }
 
     @Test
