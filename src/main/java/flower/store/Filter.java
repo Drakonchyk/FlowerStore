@@ -1,5 +1,5 @@
 package flower.store;
 
 public abstract class Filter{
-    abstract boolean match(Item item);
+    protected abstract boolean match(Item item);
 }
