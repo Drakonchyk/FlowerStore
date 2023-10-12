@@ -1,4 +1,4 @@
-package flower.store;
+package flower;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,15 +14,15 @@ public class Flower {
     private double price;
     @Getter
     private FlowerType flowerType;
-    public Flower(final double newSepalLengthh, final FlowerColor newColor,
-                  final double newPrice, final FlowerType newFlowerType) {
+    public Flower(double newSepalLengthh, FlowerColor newColor,
+                  double newPrice, FlowerType newFlowerType) {
         sepalLength = newSepalLengthh;
         color = newColor;
         price = newPrice;
         flowerType = newFlowerType;
     }
     public Flower() { }
-    public Flower(final FlowerType type) {
+    public Flower(FlowerType type) {
         flowerType = type;
     }
     public String getColor() {

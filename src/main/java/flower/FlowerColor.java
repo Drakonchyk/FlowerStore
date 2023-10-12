@@ -1,4 +1,4 @@
-package flower.store;
+package flower;
 
 public enum FlowerColor {
     RED("#FF0000"), BLUE("#0000FF");

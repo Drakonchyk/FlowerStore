@@ -1,11 +1,11 @@
-package flower.store;
+package flower;
 
 public class Rose extends Flower {
     Rose() {
         super(FlowerType.ROSE);
     }
-    Rose(final double newSepalLengthh, final FlowerColor newColor,
-         final double newPrice) {
+    Rose(double newSepalLengthh, FlowerColor newColor,
+         double newPrice) {
         super(newSepalLengthh, newColor, newPrice, FlowerType.ROSE);
     }
 }
